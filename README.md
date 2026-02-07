@@ -21,7 +21,7 @@ A responsive weather application built with **React.js** and **Vite** that fetch
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/ManjitShaw/weather-app.git](https://github.com/ManjitShaw/weather-app.git)
+   git clone https://github.com/ManjitShaw/weather-app.git
    cd weather-app
 
 2. **Install dependencies**
