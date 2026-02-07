@@ -34,4 +34,4 @@ VITE_WEATHER_API_KEY=your_api_key_here
 4. **Run the app**
 npm run dev
 
-Made with ❤️ by Manjit Shaw
+Made with ❤️ by [Manjit Shaw](https://github.com/ManjitShaw)
