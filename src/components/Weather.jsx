@@ -16,7 +16,6 @@ import {
 } from "react-icons/wi";
 
 const Weather = () => {
-  console.log("API KEY:", import.meta.env.VITE_WEATHER_API_KEY);
 
   const inputRef = useRef();
   const [weatherData, setWeatherData] = useState(false);
@@ -68,10 +67,9 @@ const Weather = () => {
       alert("Please enter a city name");
       return;
     }
-
     setWeatherData(null);
     try {
-      const apiKey = import.meta.env.VITE_WEATHER_API_KEY || "689756784841ecea46ee7ecdec04044c";
+      const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
       const response = await fetch(url);
       const data = await response.json();
